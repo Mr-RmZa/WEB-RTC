@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="googlebot"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="keywords" content="chat" />
+    <meta name="theme-color" content="#212529" />
+    <meta name="msapplication-navbutton-color" content="#212529" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#212529" />
+    <link rel="shortcut icon" href="img/favicon.ico" type=image/jpg>
+    <link rel="profile" href="img/favicon.ico" />
+    <title>Video Chat</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="/socket.io/socket.io.min.js"></script>
+  </head>
+  <body class="bg-dark text-white">
+    <!-- <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">video chat</a>
+      </div>
+    </nav>
+    <article class="m-5"> -->
+    <div class="container">
+      <div class="content-container">
+        <div class="active-users-panel" id="active-user-container">
+          <h3 class="panel-title">کاربران فعال :</h3>
+        </div>
+        <div class="video-chat-container">
+          <h2 class="talk-info" id="talking-with-info">
+            کاربر فعال را از منوی سمت چپ انتخاب کنید
+          </h2>
+          <div class="video-container">
+            <video autoplay class="remote-video" id="remote-video"></video>
+            <video autoplay muted class="local-video" id="local-video"></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </article>
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="m-0 text-center text-white">copy right &copy; Mr-RmZa</p>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
